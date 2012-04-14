@@ -17,7 +17,7 @@ Example:
 ```php
 $site_token = 'GSN-123456-X';
 $sdk = new gosquared\sdk($site_token);
-$response = $g->visitors(array(
+$response = $sdk->visitors(array(
     'visitorsLimit' => 5 // Limit the number of returned visitors to 2
 ));
 ```
